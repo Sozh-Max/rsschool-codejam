@@ -1,0 +1,19 @@
+{
+  "name": "Sozh_max",
+  "version": "1.0.0",
+  "description": "Sozh_max",
+  "main": "",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sffirm/rsschool-codejam.git"
+  },
+  "author": "Kazachenka",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "homepage": "https://github.com/sffirm/rsschool-codejam#readme"
+}
