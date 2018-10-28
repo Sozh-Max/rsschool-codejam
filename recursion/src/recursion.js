@@ -1,4 +1,4 @@
-function recursion (node, count, arrayNew) {
+module.exports = function recursion (node, count, arrayNew) {
 	if (!arrayNew) {
 		arrayNew = [];
 	}

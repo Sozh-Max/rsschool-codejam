@@ -1,9 +1,7 @@
-function sum(a, b) {
-	return a + b;
-}
 
-function make(...argums) {
-	const numb = argums.reduce(sum);
+
+module.exports = function make(...argums) {
+	const numb = argums.reduce((a, b) => a + b);
 	if (typeof (numb) === 'number') {
 		return make.bind(this, numb);
 	} else {
